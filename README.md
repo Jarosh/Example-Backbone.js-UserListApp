@@ -1,4 +1,4 @@
-# Example -> Backbone.js -> UserListApp
+# Example / Backbone.js (Coffeescript) / UserListApp
 
 A simple single page application written on Coffeescript using Backbone.js
 
