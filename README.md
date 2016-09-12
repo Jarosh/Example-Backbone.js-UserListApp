@@ -33,15 +33,14 @@ if any was passed as an argument during server startup).
 ## Configuration
 
 In order to eliminate the need for rebuilding each time when backend server was
-changed its host name was made a part of the `app/index.html` (a value if 
+changed its host name was made a part of the `app/index.html` (a value of 
 `APP.HOST.api`).
 
 ## Notes
 
-- Client-side validation of form fields was oversimplified intentionally since
-it's always a good idea to compare against backend validation rules before,
-but since those are unavailable in our case, only a few really basic checkings
-was implemented.
+- Client-side validation of form fields was oversimplified intentionally since it's
+always a good idea to compare against backend validation rules first, but since
+those are unavailable in our case, only a few really basic checkings was implemented.
 - An original task had required a paginated list of users, but backend doesn't
 seem to support any sort of server-side pagination mechanisms, hence client-side
 "fake" pagination was utilized instead.
