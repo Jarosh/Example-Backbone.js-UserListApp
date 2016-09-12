@@ -1,0 +1,94 @@
+body {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+table > thead {
+    font-weight: bold;
+}
+
+table > thead > tr > td {
+    text-align: center;
+}
+
+.editable.mode-show .mode-edit {
+    display: none !important;
+}
+
+.editable.mode-edit .mode-show {
+    display: none !important;
+}
+
+.editable .mode-edit:not(.mode-error) .error {
+    display: none;
+}
+
+.editable .mode-error input {
+    background: mistyrose;
+}
+
+.editable .error {
+    color: red;
+}
+
+.widPaginator {
+    text-align: center;
+    font-size: 150%;
+}
+
+.widPaginator > a.current {
+    font-weight: bold;
+    color: #AAA;
+}
+
+.widPaginator > a.current:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.widUserDetails > a {
+    font-weight: bold;
+}
+
+.widUserDetails > div {
+    display: table;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #DDD;
+}
+
+.widUserDetails > div > div {
+    display: table-row;
+    height: 50px;
+}
+
+.widUserDetails > div > div:not(:last-child) > div {
+    border-bottom: 1px solid #CCC;
+}
+
+.widUserDetails > div > div > div {
+    display: table-cell;
+    height: 60px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+.widUserDetails > div > div > div:first-child {
+    width: 30%;
+    padding: 0 10px;
+    text-align: right;
+    font-weight: bold;
+    background: #FAFAFA;
+}
+
+.widUserDetails > div > div > div:last-child {
+    position: relative;
+    width: 70%;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.widUserDetails > div > div > div:last-child input {
+    width: 100%;
+}
