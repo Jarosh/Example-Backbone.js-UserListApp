@@ -25,7 +25,7 @@ the configuration of your Apache, nginx or whatever server you are running.
 2) For those who by any reason can't run the application under a real webserver,
 a local NodeJS-based solution is provided. Just execute `cd bin` and then run
 `node server`, optionally you may pass a port number the server will
-be listening on (`3000` by default), e.g. .`node server 3456` As soon
+be listening on (`3000` by default), e.g. `node server 3456` As soon
 as you've lauched **server** locally on your machine you may open
 **http://localhost:3000/** in your browser (replace 3000 with your port number
 if any was passed as an argument during server startup).
